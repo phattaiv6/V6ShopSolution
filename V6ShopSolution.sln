@@ -3,7 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V6Shop.WebApp", "V6Shop.WebApp\V6Shop.WebApp.csproj", "{73DB9E9C-44B7-430C-90A5-B7EFA136B315}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "V6Shop.WebApp", "V6Shop.WebApp\V6Shop.WebApp.csproj", "{73DB9E9C-44B7-430C-90A5-B7EFA136B315}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04932B56-C7F9-4D86-9292-677177E15242} = {04932B56-C7F9-4D86-9292-677177E15242}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "V6Shop.Data", "v6shop.data\V6Shop.Data.csproj", "{C8670F84-02EE-4170-BC52-F99F94A85BEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "V6ShopSolution.Utilities", "V6ShopSolution.Utilities\V6ShopSolution.Utilities.csproj", "{4DB7ECD8-3A37-4F84-92F3-1B83032DC932}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "V6ShopSolution.Application", "V6ShopSolution.Application\V6ShopSolution.Application.csproj", "{ED9DD707-7DB6-4F74-8207-05D66AB59EEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "V6shopSolution.ViewModel", "V6shopSolution.ViewModel\V6shopSolution.ViewModel.csproj", "{04932B56-C7F9-4D86-9292-677177E15242}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "V6ShopSolution.BackEndApi", "V6ShopSolution.BackEndApi\V6ShopSolution.BackEndApi.csproj", "{96A1A722-C187-46EE-927E-A861EF25BE7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "V6shopSolution.AdminApp", "V6shopSolution.AdminApp\V6shopSolution.AdminApp.csproj", "{108C9C99-EC21-489A-BC74-D8E88728AD8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +30,30 @@ Global
 		{73DB9E9C-44B7-430C-90A5-B7EFA136B315}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73DB9E9C-44B7-430C-90A5-B7EFA136B315}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73DB9E9C-44B7-430C-90A5-B7EFA136B315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8670F84-02EE-4170-BC52-F99F94A85BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8670F84-02EE-4170-BC52-F99F94A85BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8670F84-02EE-4170-BC52-F99F94A85BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8670F84-02EE-4170-BC52-F99F94A85BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB7ECD8-3A37-4F84-92F3-1B83032DC932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB7ECD8-3A37-4F84-92F3-1B83032DC932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB7ECD8-3A37-4F84-92F3-1B83032DC932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB7ECD8-3A37-4F84-92F3-1B83032DC932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9DD707-7DB6-4F74-8207-05D66AB59EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9DD707-7DB6-4F74-8207-05D66AB59EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9DD707-7DB6-4F74-8207-05D66AB59EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9DD707-7DB6-4F74-8207-05D66AB59EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04932B56-C7F9-4D86-9292-677177E15242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04932B56-C7F9-4D86-9292-677177E15242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04932B56-C7F9-4D86-9292-677177E15242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04932B56-C7F9-4D86-9292-677177E15242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A1A722-C187-46EE-927E-A861EF25BE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A1A722-C187-46EE-927E-A861EF25BE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A1A722-C187-46EE-927E-A861EF25BE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A1A722-C187-46EE-927E-A861EF25BE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{108C9C99-EC21-489A-BC74-D8E88728AD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108C9C99-EC21-489A-BC74-D8E88728AD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108C9C99-EC21-489A-BC74-D8E88728AD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108C9C99-EC21-489A-BC74-D8E88728AD8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
